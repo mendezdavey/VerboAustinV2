@@ -1,0 +1,15 @@
+  /home/ubuntu/Jekyll/VerboWebsite:
+  total used in directory 60 available 764516
+  drwxr-xr-x 10 root   root   4096 Jan 30 16:09 .
+  drwxrwxr-x  6 ubuntu ubuntu 4096 Jan 30 16:05 ..
+  -rw-r--r--  1 root   root    536 Jan 30 15:58 about.md
+  -rw-r--r--  1 root   root    891 Jan 30 15:58 _config.yml
+  drwxr-xr-x  2 root   root   4096 Jan 30 15:58 css
+  -rw-r--r--  1 root   root   1291 Jan 30 15:58 feed.xml
+  drwxr-xr-x  2 root   root   4096 Jan 30 15:58 _includes
+  drwxr-xr-x  2 root   root   4096 Jan 30 15:58 js
+  drwxr-xr-x  2 root   root   4096 Jan 30 16:18 _layouts
+  drwxr-xr-x  2 root   root   4096 Jan 30 15:58 _posts
+  drwxr-xr-x  2 root   root   4096 Jan 30 15:58 _sass
+  drwxr-xr-x  3 root   root   4096 Jan 30 15:58 .sass-cache
+  drwxr-xr-x  6 root   root   4096 Jan 30 15:58 _site

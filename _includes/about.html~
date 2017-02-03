@@ -1,0 +1,60 @@
+    <!-- START CONTENT -->
+
+    <!-- Page Content IGLESIA VERBO EDITAR ABAJO-->
+    <!-- adding full-width background color to h1 tags
+    <div class="green-background">
+      <div class="container">
+        <h1>Quienes Somos</h1>
+        <p>Verbo Norte Suite H101, Austin, Texas 78757</p>
+      </div>
+    </div>-->
+    <!-- adding full-width picture for website -->
+    <div class="full-width">
+    <img src="slider/austin-night-1200.jpg" alt="Adentro de una iglesia">
+    </div>
+    <div class="white-background">
+      <div class="container">
+        <h1>Quienes Somos</h1>
+      </div>
+    </div>
+    <!--
+    <div class="white-background">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <h1>Verbo Norte Suite H101, Austin, Texas 78757</h1>
+              <p class="lead">Que Dios te bendiga y que haga resplandecer tu rostro sobre ti!</p>
+            </div>
+        </div>
+      </div><!-- end container -->
+    </div><!-- end white-background-->
+
+    <div class="gray-background">
+      <div class="container" id ="">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <!-- more text -->
+          <h3>¿Quiénes somos …y hacia dónde vamos?</h3>
+              <p>Verbo New Orleans, es una Iglesia Cristiana creada en el Estado de Louisiana, desde hace más de 35 años, con el fin de establecer el Reino de Dios en este Estado. Las iglesias locales en Louisiana son parte de la región Norte y ésta, a su vez, es parte de Verbo Ministries, Ministerio creado hace más de 30 años, en la ciudad de Guatemala, capital de la República de Guatemala en Centro América. Se inició el trabajo después del fatal terremoto que destrozó esa ciudad.  Ministerios Verbo cuenta con Iglesias en Centro América, Norte América, Sur América y España.</p>
+            <h3>¿Cómo nos organizamos?</h3>
+            <p>
+            La Iglesia está dirigida por un Consejo de Administración, como máxima autoridad, integrado por Ancianos debidamente reconocidos por el Ministerio Verbo y uno o dos líderes como invitados. Preside este Consejo un Anciano nombrado y escogido por el Consejo Regional Norte, como máxima autoridad de este Consejo.
+
+El Consejo local fija las normas, propósito y visión de la Iglesia y establece los lineamientos de dirección de cada ministerio de servicio establecido, en particular.
+
+El Consejo local nombra un Consejo de Supervisión de Grupos Familiares quienes tiene a cargo los distintos Grupos familiares que funcionan en la ciudad y ellos son la columna vertebral de la iglesia y en donde las familias que hacen parte de nuestra congregación se reúnen en casas para recibir, compartir y servir del Amor de Dios y permitir que los hermanos desarrollen los dones dados por Dios a cada miembro en particular.
+
+El Consejo destaca a Ancianos como supervisores de cada Ministerio de Servicio con los que cuenta la Iglesia Local, quienes además de supervisar dan dirección y permiten el crecimiento y preparación de siervos y líderes.
+
+Todos los miembros de la congregación pueden ser parte de los distintos ministerios, compartiendo en familia el Amor de Dios y sirviendo a la comunidad en la ciudad de New Orleans y ciudades circunvecinas.
+
+
+            </p>
+        </div><!-- ./col-lg-12 -->
+      </div><!-- ./row -->
+
+
+    </div><!-- ./ container #/about -->
+    </div><!-- ./ white-background -->
+    <!-- END PAGE CONTENT EDITAR ARRIBA DE AQUI-->
