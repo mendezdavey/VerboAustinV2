@@ -45,176 +45,64 @@
 	  <ul class="nav navbar-nav navbar-right">
 	    <li><a href="index.html">INICIO</a></li>
 	    <li><a class="active-link"href="about.html">QUIENES SOMOS?</a></li>
-	    <li><a href="contact.php">CONTACTO</a></li>
+	    <li><a href="contact.html">CONTACTO</a></li>
 	  </ul>
 	</div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
       </nav><!-- end-nav -->
     <!-- begin content-->
     <!-- START CONTENT -->
-
     <!-- Page Content IGLESIA VERBO EDITAR ABAJO-->
-    <!-- adding full-width background color to h1 tags -->
-
+    <div class="green-background">
+      <div class="container ">
+        <h1>Quienes Somos</h1>
+        <p>Verbo Norte Suite H101, Austin, Texas 78757</p>
+      </div>
     <!-- adding full-width picture for website -->
     <div class="full-width">
     <img src="slider/austin-night-1200.jpg" alt="Adentro de una iglesia">
     </div>
+    <!--
     <div class="white-background">
       <div class="container">
-        <h1>Contáctanos</h1>
-      </div>
-    </div>
-<div class="gray-background">
-<div class="container">
-<div class="row">
-    <div class="col-sm-6">
-        <h1></h1>
-        <p>La palabra del senor dice: Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces. Jeremías 33:3. El Senor es el mejor punto de contacto para salvacion. Si quieres congregarte con nosotros hablanos o llena el formulario.</p>
-        <h3>El Padre</h3>
-        <p>Nombre: יהוה </p>
-        <p>Direcion: El Reyno de los Cielos</p>
-        <p>Forma de Contacto: Orando en el nombre de Jesucristo</p>
+        <div class="row">
+            <div class="col-lg-12">
+              <h1>Verbo Norte Suite H101, Austin, Texas 78757</h1>
+              <p class="lead">Que Dios te bendiga y que haga resplandecer tu rostro sobre ti!</p>
+            </div>
+        </div>
+      </div><!-- end container -->
+    </div><!-- end white-background-->
+    <div class="white-background">
+      <div class="container" id ="">
+      <div class="row">
+        <div class="col-lg-12">
 
-        <h3>Pastor</h3>
-        <p>Nombre: Javier Ruiz</p>
-        <p>Direccion: 8711 Burnet Rd, Suite H-101, Austin, Texas 78757</p>
-        <p>Email: N/A</p>
-        <p>Telefono: 512-825-3472</p>
-    </div><!-- end class col-sm-6 -->
+          <!-- more text -->
+          <h3>¿Quiénes somos …y hacia dónde vamos?</h3>
+              <p>Las iglesias locales en Austin Texas son parte de la región Norte y ésta, a su vez, es parte de Verbo Ministries, Ministerio creado hace más de 30 años, en la ciudad de Guatemala, capital de la República de Guatemala en Centro América. Se inició el trabajo después del fatal terremoto que destrozó esa ciudad.  Ministerios Verbo cuenta con Iglesias en Centro América, Norte América, Sur América y España.</p>
+            <h3>¿Cómo nos organizamos?</h3>
+            <p>
+            La Iglesia está dirigida por un Consejo de Administración, como máxima autoridad, integrado por Ancianos debidamente reconocidos por el Ministerio Verbo y uno o dos líderes como invitados. Preside este Consejo un Anciano nombrado y escogido por el Consejo Regional Norte, como máxima autoridad de este Consejo.
 
-    <div class="col-sm-6">
-        <br>
-        <?php 
-            // Check for header injections
-            function has_header_injection($str) {
-                return preg_match( "/[\r\n]/", $str );
-            }
+El Consejo local fija las normas, propósito y visión de la Iglesia y establece los lineamientos de dirección de cada ministerio de servicio establecido, en particular.
 
-            if (isset ($_POST['contact_submit'])){
+El Consejo local nombra un Consejo de Supervisión de Grupos Familiares quienes tiene a cargo los distintos Grupos familiares que funcionan en la ciudad y ellos son la columna vertebral de la iglesia y en donde las familias que hacen parte de nuestra congregación se reúnen en casas para recibir, compartir y servir del Amor de Dios y permitir que los hermanos desarrollen los dones dados por Dios a cada miembro en particular.
 
-                $name = trim($_POST['name']);
-                $email = trim($_POST['email']);
-                $msg = $_POST['message'];
+El Consejo destaca a Ancianos como supervisores de cada Ministerio de Servicio con los que cuenta la Iglesia Local, quienes además de supervisar dan dirección y permiten el crecimiento y preparación de siervos y líderes.
 
-                // Check to see if $name or $email have header injections
-                if (has_header_injection($name) || has_header_injection($email)) {
-                    die(); // If true, kill the script
-                }
+Todos los miembros de la congregación pueden ser parte de los distintos ministerios, compartiendo en familia el Amor de Dios y sirviendo a la comunidad en la ciudad de New Orleans y ciudades circunvecinas.
 
-                // Check if empty
-                if ( !$name || !$email || !$msg ) {
-                    echo '<h4 class="error">All fields required.</h4><a href="contactanos.php" class="button
-                     block">Go back and try again</a>';
-                     exit;
 
-                }
+            </p>
+        </div><!-- ./col-lg-12 -->
+      </div><!-- ./row -->
 
-                // Add the recipient email to a variable
-                $to = "mendezdavey@gmail.com";
 
-                // Create a subject
-                $subject = "$name sent you a message via your contact form";
-
-                // Construct the message
-                $message = "Name: $name\r\n";
-                $message .= "Email: $email\r\n";
-                $message .= "Message:\r\n$msg";
-
-                // IF the subscribe checkbox was checked...
-                if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe') {
-
-                    // Add a new line to the message variable
-                    $message .= "\r\n\r\nPlease add $email to the mailing list.\r\n";
-
-                }
-
-                $message = wordwrap($message, 72);
-
-                // Set the mail headers into a variable
-                $headers = "MIME-Version: 1.0\r\n";
-                $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
-                $headers .= "From: $name <$email>\r\n";
-                $headers .= "X-Priority: 1\r\n";
-                $headers .= "X-MSMail-Priority: High\r\n\r\n";
-
-                // Send the email!
-                mail( $to, $subject, $message, $headers );
-
-            
-
-        ?>
-
-        <!-- Show succes message after email is sent -->
-        <h5>Gracias por contactarnos</h5>
-        <p>Porfavor espere 24 horas para una respuesta.</p>
-
-        <?php } else { ?>
-        
-        <form method="post"  id="contact-form">
-        <fieldset>
-        <h3>Forma de Contacto</h3>
-        <p>Para mas informacion, comunicate con nosotros. Si deseas oracion envianos tu peticion.</p>
-        <hr>
-        
-        <label for="name">Nombre:</label><br>
-        <input type="text" id="name" name="name">
-        <br>
-
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email" >
-        <br>
-        
-        <label for="phone">Telefono:</label><br>
-        <input type="text" id="phone" name="phone">
-        <br>
-
-        <label for="message">Tu Mensaje</label><br>
-        <textarea rows="5" cols="45" id="message" name="message"></textarea>
-        <br>
-        <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-        <label for="checkbox">Subscribe to newsletter</label>
-        <br>
-
-        <input type="submit" class="button next" name="contact_submit" value="Envia Mensaje">
-        </fieldset>
-        </form>
-        <br>
-        <?php } ?>
-        
-    </div><!-- end class 2col-sm-6 -->
-</div><!-- end of class row -->
-
-<div class="row">
-
-            <div class="col-sm-6">
-
-              <h2>
-                <strong>Ubicacion</strong>
-              </h2>
-                <hr>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.3541092638056!2d-97.72888848537204!3d30.369301110108925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb9617e5cdb9%3A0x28d6ab215d2fae66!2s8711+Burnet+Rd%2C+Austin%2C+TX+78757!5e0!3m2!1sen!2sus!4v1473084683818" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div><!-- end col-sm-6 -->
-            <div class="col-sm-6">
-              <h2><strong>Servicios</strong><hr></h2>
-                      <em>Domingo</em><br>
-                      10:00am - 10:30am (<em>Oracion</em>)<br>
-                      10:30am - 1:00pm (<em>primer servicio</em>) <br>
-                      <br>
-                      <em>Miercoles</em><br>
-                      8:00pm - 9:00pm (<em>Estudio Biblico</em>)<br><br>
-                      <em>Viernes</em><br>
-                      8:00pm - 9:00pm<br><br>
-                      <em>Lunes, Martes, Jueves, Sabado</em><br>
-                      Cerrado<br><br>
-              <?php include('includes/store-hours.php'); ?>
-            </div><!-- end col-sm-6 -->
-          </div><!-- end class row -->
-
-</div>
-    </br>
-</div>
+    </div><!-- ./ container #/about -->
+    </div><!-- ./ white-background -->
     <!-- END PAGE CONTENT EDITAR ARRIBA DE AQUI-->
+
     <!-- begin footer -->
     <footer class="footer">
         <div class="container">

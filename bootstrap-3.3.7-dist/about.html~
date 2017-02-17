@@ -45,7 +45,7 @@
 	  <ul class="nav navbar-nav navbar-right">
 	    <li><a href="index.html">INICIO</a></li>
 	    <li><a class="active-link"href="about.html">QUIENES SOMOS?</a></li>
-	    <li><a href="contact.php">CONTACTO</a></li>
+	    <li><a href="contact.html">CONTACTO</a></li>
 	  </ul>
 	</div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

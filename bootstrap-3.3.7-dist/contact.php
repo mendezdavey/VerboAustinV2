@@ -44,8 +44,8 @@
 	 
 	  <ul class="nav navbar-nav navbar-right">
 	    <li><a href="index.html">INICIO</a></li>
-	    <li><a href="about.html">QUIENES SOMOS?</a></li>
-	    <li><a class="active-link"href="contact.php">CONTACTO</a></li>
+	    <li><a class="active-link"href="about.html">QUIENES SOMOS?</a></li>
+	    <li><a href="contact.php">CONTACTO</a></li>
 	  </ul>
 	</div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -56,21 +56,20 @@
     <!-- Page Content IGLESIA VERBO EDITAR ABAJO-->
     <!-- adding full-width background color to h1 tags -->
 
-    <div class="white-background">
-      <div class="container">
-        <h1>Contactanos</h1>
-        <p>Verbo Norte Suite H101, Austin, Texas 78757</p>
-      </div>
-    </div>
     <!-- adding full-width picture for website -->
     <div class="full-width">
     <img src="slider/austin-night-1200.jpg" alt="Adentro de una iglesia">
+    </div>
+    <div class="white-background">
+      <div class="container">
+        <h1>Contáctanos</h1>
+      </div>
     </div>
 <div class="gray-background">
 <div class="container">
 <div class="row">
     <div class="col-sm-6">
-        <h1>Contactanos</h1>
+        <h1></h1>
         <p>La palabra del senor dice: Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces. Jeremías 33:3. El Senor es el mejor punto de contacto para salvacion. Si quieres congregarte con nosotros hablanos o llena el formulario.</p>
         <h3>El Padre</h3>
         <p>Nombre: יהוה </p>
@@ -185,10 +184,7 @@
         
     </div><!-- end class 2col-sm-6 -->
 </div><!-- end of class row -->
-</div><!-- end container -->
-</div>
-<div clas="white-background">
-<div class="container">
+
 <div class="row">
 
             <div class="col-sm-6">
@@ -217,8 +213,6 @@
 
 </div>
     </br>
-</div>
-</div>
 </div>
     <!-- END PAGE CONTENT EDITAR ARRIBA DE AQUI-->
     <!-- begin footer -->
